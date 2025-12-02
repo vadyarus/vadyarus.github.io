@@ -1,0 +1,86 @@
+.section__contact {
+    text-align: center;
+}
+
+.section__contact--form {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2em;
+    grid-gap: 1em;
+}
+
+.section__contact--form input, .section__contact--form textarea {
+    border: 2px solid;
+    border-radius: 4px;    
+    padding: 0.5em;
+    margin: 0.25em;
+    min-width: 125px;
+    resize: vertical;
+    min-height: 3.5em;
+    transition: background-color 0.5s ease-out;
+}
+
+.section__contact--input:optional {
+    border-color: gray;
+}
+
+.section__contact--input:not(:focus):not(:placeholder-shown):valid {
+    border-color: green;
+}
+
+.section__contact--input:not(:focus):not(:placeholder-shown):invalid {
+    border-color: red
+}
+
+.section__contact--input:required:focus:valid {
+    border-color: green;
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+    background-size: 25px;
+}
+
+.section__contact--input:focus:invalid {
+    border-color: red;
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px;
+}
+
+.section__contact--submit {
+    border: 0px;
+    width: min-content;
+    padding: 1em;
+}
+
+.section__contact--disclaimer {
+    font-size: xx-small;
+    color: gray;
+    text-align: left;
+}
+
+.section__contact--disclaimer a {
+    color: inherit;
+}
+
+.section__contact--icon {
+    padding: 0.25em;
+    font-size: 6em;
+    color: var(--clr-accent);
+}
+
+.section__contact--success {
+    padding: 2em;
+}
+
+.section__contact--failed {
+    padding: 2em;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .section__contact {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
