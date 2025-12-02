@@ -1,0 +1,48 @@
+
+.portfolio__pdf {
+    max-width: var(--width-max);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin: 0 auto;
+}
+
+.pdf-controls-container {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.pdf-controls .btn {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.pdf-controls .btn:hover {
+    background: #555;
+
+
+#pdf-canvas {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+}
+
+.pdf-canvas {
+    border: 1px solid #ccc; 
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.pdf-viewer {
+    width: 100%;
+    height: 800px;
+    border: none;
+    margin-top: 2em;
+}
