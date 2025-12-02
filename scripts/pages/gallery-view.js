@@ -1,5 +1,7 @@
 import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe-lightbox.esm.min.js';
 import PhotoSwipe from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.esm.min.js';
+import PdfViewer from '../components/pdfviewer.js';
+
 // --- CONFIGURATION ---
 const SUPABASE_URL = 'https://tqfxvsozbeevwmfanqra.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRxZnh2c296YmVldndtZmFucXJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ2NTg2ODUsImV4cCI6MjA4MDIzNDY4NX0.fcM7nBDFotBQQHNhDXLRRZywX6unMoe0otdP5LFM-SQ';
@@ -10,6 +12,14 @@ const DRAWINGS_BUCKET_NAME = 'portfolio-drawings';
 const DRAWINGS_STORAGE_URL = `${SUPABASE_URL}/storage/v1/object/public/${DRAWINGS_BUCKET_NAME}`;
 
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+// ----------------------
+
+// Initialize PDF.js worker globally
+if(window.pdfjsLib) {
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+}
+
 
 // Get the Gallery ID from the URL parameters
 const urlParams = new URLSearchParams(window.location.search);
@@ -57,15 +67,15 @@ async function loadGallery() {
     }
 
     // RENDER METADATA
-        const titleElement = document.getElementById('gallery-title');
-        const locationElement = document.getElementById('gallery-location');
+    const titleElement = document.getElementById('gallery-title');
+    const locationElement = document.getElementById('gallery-location');
 
-        if(titleElement) titleElement.innerText = gallery.title || 'Untitled Gallery';
-        if(locationElement) locationElement.innerText = gallery.location || '';
+    if(titleElement) titleElement.innerText = gallery.title || 'Untitled Gallery';
+    if(locationElement) locationElement.innerText = gallery.location || '';
 
     // RENDER VIDEO IF EXISTS
-        if(gallery.video) {
-            const videoContainer = document.getElementById('gallery-video-container');
+    if(gallery.video) {
+        const videoContainer = document.getElementById('gallery-video-container');
 
         // Check if the string looks like a YouTube URL
         const youtubeID = getYouTubeID(gallery.video);
@@ -95,31 +105,37 @@ async function loadGallery() {
             videoContainer.querySelector('video').load();
         }
         
-            videoContainer.style.display = 'block';
-        }                
+        videoContainer.style.display = 'block';
+    }
 
-        // Generate Gallery Grid(s)
-        const contentRoot = document.getElementById('gallery-content-root');
+    // Render PDF Drawings if exist
+    if(gallery.pdf_file) {
+        const pdfUrl = `${DRAWINGS_STORAGE_URL}/${gallery.pdf_file}`;
+        // Instantiate the viewer
+        new PdfViewer('gallery-drawing-container', pdfUrl);
+    }
 
-        gallery.sections.forEach(section => {
+    const contentRoot = document.getElementById('gallery-content-root');
+
+    gallery.sections.forEach(section => {
         // Section Title
-            if(section.title) {
-                const subTitle = document.createElement('h3');
-                subTitle.className = 'section__subtitle--gallery';
-                subTitle.innerText = section.title;
-                contentRoot.appendChild(subTitle);
-            }
+        if(section.title) {
+            const subTitle = document.createElement('h3');
+            subTitle.className = 'section__subtitle--gallery';
+            subTitle.innerText = section.title;
+            contentRoot.appendChild(subTitle);
+        }
 
         // Grid Container
-            const grid = document.createElement('div');
-            grid.className = 'portfolio pswp-gallery';
-            grid.id = 'gallery-' + Math.random().toString(36).substring(2, 9); // Unique ID
+        const grid = document.createElement('div');
+        grid.className = 'portfolio pswp-gallery';
+        grid.id = 'gallery-' + Math.random().toString(36).substring(2, 9); // Unique ID
 
-            // Determine Image folder (override if section has specific folder)
-            const imgFolder = section.folder ? section.folder : gallery.folder;
+// Determine Image folder (override if section has specific folder)
+        const imgFolder = section.folder ? section.folder : gallery.folder;
 
-            // Generate HTML for images
-            let imagesHTML = '';
+// Generate HTML for images
+        let imagesHTML = '';
 
         // Safety check if images exist
         if(section.images && section.images.length > 0) {
@@ -140,57 +156,57 @@ async function loadGallery() {
             });
         }
 
-            grid.innerHTML = imagesHTML;
-            contentRoot.appendChild(grid);
-        });
+        grid.innerHTML = imagesHTML;
+        contentRoot.appendChild(grid);
+    });
 
     initLightbox();
 }
        
 function initLightbox() {    
-        // Initialize PhotoSwipe Lightbox
-        const lightbox = new PhotoSwipeLightbox({
-            gallery: '.pswp-gallery',
-            children: 'a',
-            pswpModule: PhotoSwipe,
-        });
-
-        // Register custom caption element (Top Bar)
-        lightbox.on('uiRegister', function() {
-            lightbox.pswp.ui.registerElement({
-                name: 'custom-caption',
-                order: 7,
-                isButton: false,
-                appendTo: 'bar',
-                html: '',
-                onInit: (el, pswp) => {
-                    lightbox.pswp.on('change', ()=>{
-                        const currSlideElement = lightbox.pswp.currSlide.data.element;
-                        let captionHTML = '';
-                        if (currSlideElement) {
-                            const img = currSlideElement.querySelector('img');
-                            if (img) {
-                                captionHTML = img.getAttribute('alt');
-                            }
+    // Initialize PhotoSwipe Lightbox
+    const lightbox = new PhotoSwipeLightbox({
+        gallery: '.pswp-gallery',
+        children: 'a',
+        pswpModule: PhotoSwipe,
+    });
+            
+    // Register custom caption element (Top Bar)
+    lightbox.on('uiRegister', function() {
+        lightbox.pswp.ui.registerElement({
+            name: 'custom-caption',
+            order: 7,
+            isButton: false,
+            appendTo: 'bar',
+            html: '',
+            onInit: (el, pswp) => {
+                lightbox.pswp.on('change', ()=>{
+                    const currSlideElement = lightbox.pswp.currSlide.data.element;
+                    let captionHTML = '';
+                    if (currSlideElement) {
+                        const img = currSlideElement.querySelector('img');
+                        if (img) {
+                            captionHTML = img.getAttribute('alt');
                         }
-                        el.innerHTML = captionHTML || '';
-                    });
-                }
-            });
+                    }
+                    el.innerHTML = captionHTML || '';
+                });
+            }
         });
+    });
 
-        lightbox.init();
+    lightbox.init();
 }
 
 function renderErrorState() {
-        const titleElement = document.getElementById('gallery-title');
-        const contentRoot = document.getElementById('gallery-content-root');
-        if(titleElement) titleElement.innerText = 'Gallery Not Found';
-        if(contentRoot) {
+    const titleElement = document.getElementById('gallery-title');
+    const contentRoot = document.getElementById('gallery-content-root');
+    if(titleElement) titleElement.innerText = 'Gallery Not Found';
+    if(contentRoot) {
         contentRoot.innerHTML = `<p style="text-align:center; margin-top:2em;">
             We couldn't find the data for "${galleryID}".
         </p>`;
-        }
+    }
 }
 
 loadGallery();

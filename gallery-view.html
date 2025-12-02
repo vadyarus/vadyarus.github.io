@@ -12,13 +12,18 @@
         <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe-lightbox.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/styles/lightbox-caption.css">
-
+        
         <!-- Load in Supabase JS -->
         <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
+        <!-- Load in Mozilla PDF.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
         <link rel="stylesheet" type="text/css" href="/styles/style_gallery.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/styles/style_pdf.css" media="screen" />
+
         <script src="/scripts/layout.js" defer></script>
-        
+
         <!-- Page-specific JS -->
         <script type="module" src="/scripts/pages/gallery-view.js" defer></script>        
     </head>
@@ -41,6 +46,8 @@
             </div>
             
             <div id="gallery-content-root"></div>
+
+            <div id="gallery-drawing-container" class="portfolio__pdf"></div>
         </section>
         
         <footer></footer>
