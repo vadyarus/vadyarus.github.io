@@ -20,6 +20,9 @@ export default class PdfViewer {
         this.scrollPos = { left: 0, top: 0 };
         this.wheelAccumulator = 0;
 
+        // Track the active render task to allow cancellation
+        this.renderTask = null;
+
         // DOM Elements
         this.canvas = null;
         this.ctx = null;
@@ -128,6 +131,12 @@ export default class PdfViewer {
      * @param {Object} [pivot] - Optional point to maintain centered {x: 0-1, y: 0-1, offsetX: px, offsetY: px}
      */
     renderPage(num, pivot = null) {
+        // If a render is already in progress, cancel it immediately.
+        if(this.renderTask) {
+            this.renderTask.cancel();
+            this.renderTask = null;
+        }
+
         this.pageRendering = true;
         this.showLoading(true);
 
@@ -166,14 +175,27 @@ export default class PdfViewer {
                 transform: transform 
             };
 
-            const renderTask = page.render(renderContext);
+            // Store the render task
+            this.renderTask = page.render(renderContext);
 
-            renderTask.promise.then(() => {
+            // Handle the promise
+            this.renderTask.promise.then(() => {
+                this.renderTask = null; // Clear the task when done
                 this.pageRendering = false;
                 this.showLoading(false);
                 if (this.pageNumPending !== null) {
                     this.renderPage(this.pageNumPending);
                     this.pageNumPending = null;
+                }
+            })
+            .catch(error => {
+                // Ignore the error if it was caused by our cancellation
+                if (error.name === 'RenderingCancelledException') {
+                    // Do nothing, a new render has already taken over
+                } else {
+                    console.error("Render error:", error);
+                    this.pageRendering = false;
+                    this.showLoading(false);
                 }
             });
         });
