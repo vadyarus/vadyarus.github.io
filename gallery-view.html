@@ -9,13 +9,18 @@
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
         <!-- Load in the lightbox script and styling. -->
-        <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe-lightbox.esm.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe-lightbox.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/styles/lightbox-caption.css">
+
+        <!-- Load in Supabase JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
         <link rel="stylesheet" type="text/css" href="/styles/style_gallery.css" media="screen" />
         <script src="/scripts/layout.js" defer></script>
         
+        <!-- Page-specific JS -->
+        <script type="module" src="/scripts/pages/gallery-view.js" defer></script>        
     </head>
     <body>
         <!-- ### HEADER ### -->
