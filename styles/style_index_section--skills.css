@@ -1,0 +1,26 @@
+/* My Skills Section */
+.my-skills {
+    margin: 0 auto;
+    background: var(--clr-accent);
+}
+
+.section__title--skills {
+    padding-top: 0.5em;
+    text-align: center;
+    color: var(--clr-light);
+}
+
+.skills {
+    border: none;
+    width: 100%;
+    height: 600px;
+}
+
+@media (min-width: 1000px) {
+    .skills {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: var(--width-max);
+    }
+}
