@@ -1,48 +1,129 @@
-
-.portfolio__pdf {
-    max-width: var(--width-max);
+/* Controls Toolbar */
+.pdf-controls {
     display: flex;
-    flex-direction: column;
+    gap: 1.5rem;
     align-items: center;
-    margin-top: 2em;
-    margin: 0 auto;
+    justify-content: center;
+    background: #f4f4f4;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    color: #333;
 }
 
-.pdf-controls-container {
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 1em;
+.pdf-controls-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.pdf-controls .btn {
-    padding: 0.5rem 1rem;
+.pdf-button {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    color: #333;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.pdf-button:hover {
     background: #333;
     color: #fff;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 0.9rem;
+    border-color: #333;
 }
 
-.pdf-controls .btn:hover {
-    background: #555;
+.pdf-page-info {
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    margin: 0 0.5rem;
+}
 
+/* NEW: Viewport Container 
+   This wrapper acts as the positioning context for the loading spinner.
+   It does NOT scroll.
+*/
+.pdf-viewport-container {
+    position: relative;
+    width: 100%;
+    /* Keep width/height logic */
+}
 
-#pdf-canvas {
-    box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+/* Wrapper & Canvas */
+.pdf-scroll-wrapper {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    max-height: 800px;
+    background: #525659;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    cursor: grab;
+    
+    /* NEW: Flexbox setup for centering */
+    display: flex;
+    overflow: auto;
+}
+
+.pdf-scroll-wrapper.grabbing {
+    cursor: grabbing;
 }
 
 .pdf-canvas {
-    border: 1px solid #ccc; 
-    width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    /* FIX: Ensure canvas has a white background to prevent transparency artifacts */
+    background-color: #fff;
+    
+    /* NEW: Auto margins center the flex item (canvas) both H and V */
+    /* When content overflows, margins effectively become 0 */
+    margin: auto;
+    flex-shrink: 0;
 }
 
-.pdf-viewer {
-    width: 100%;
-    height: 800px;
-    border: none;
-    margin-top: 2em;
+/* Loading Spinner */
+.pdf-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2rem;
+    color: #fff;
+    z-index: 10;
+    pointer-events: none;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdf-loading.hidden {
+    display: none;
+}
+
+/* FULLSCREEN OVERRIDES */
+/* When the container is in fullscreen mode, we need to adjust heights */
+:fullscreen .pdf-scroll-wrapper,
+:-webkit-full-screen .pdf-scroll-wrapper {
+    height: calc(100vh - 60px) !important; /* Subtract approx toolbar height */
+    max-height: none !important;
+}
+
+:fullscreen .pdf-controls,
+:-webkit-full-screen .pdf-controls {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+:fullscreen,
+:-webkit-full-screen {
+    background: #f4f4f4; /* Ensure background is solid in fullscreen */
+    display: flex;
+    flex-direction: column;
 }

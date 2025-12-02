@@ -76,6 +76,15 @@ iframe.portfolio__video {
     transform: scale(1.2);
     opacity: 0.5;
 }
+
+.portfolio__pdf {
+    max-width: var(--width-max);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto 4em auto;
+}
+
 /*
 @media (min-width: 1000px) {
     .gallery {
