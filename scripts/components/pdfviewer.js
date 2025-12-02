@@ -91,13 +91,26 @@ export default class PdfViewer {
             this.pdfDoc = await window.pdfjsLib.getDocument(this.url).promise;
             this.pageCountDisplay.textContent = this.pdfDoc.numPages;
 
-            // Initial Fit Logic
             const page = await this.pdfDoc.getPage(1);
-            const containerWidth = this.container.clientWidth || 800;
-            const unscaledViewport = page.getViewport({ scale: 1 });
-            
-            // Fit to width, but cap max initial zoom if image is huge
-            this.baseScale = containerWidth / unscaledViewport.width;
+            const unscaled = page.getViewport({ scale: 1 });
+
+            // --- FIT LOGIC ---
+            // Calculate scale based on the Wrapper width (not container)
+            const wrapper = this.scrollWrapper;
+            const availWidth = wrapper.clientWidth;
+            const availHeight = wrapper.clientHeight;
+
+            // 1. Initial attempt: Fit to full available width
+            let scale = availWidth / unscaled.width;
+
+            // 2. Check if this scale creates a page taller than the viewport (triggering a vertical scrollbar)
+            if ((unscaled.height * scale) > availHeight) {
+                // Vertical scrollbar will appear, reducing available width.
+                // Subtract ~18px (standard scrollbar width) to prevent horizontal scrolling.
+                scale = (availWidth - 18) / unscaled.width;
+            }
+
+            this.baseScale = scale;
             this.currentScale = this.baseScale;
 
             this.renderPage(this.pageNum);
@@ -403,7 +416,7 @@ export default class PdfViewer {
         if (Math.abs(newScale - this.currentScale) < 0.001) return;
 
         this.currentScale = newScale;
-        
+
         // Center Pivot (Reused logic)
         const viewportW = this.scrollWrapper.clientWidth;
         const viewportH = this.scrollWrapper.clientHeight;
@@ -437,17 +450,22 @@ export default class PdfViewer {
 
     handleResize() {
         if (!this.pdfDoc) return;
-        // On resize (or fullscreen change), re-calculate base scale so 100% still fits nicely
-        // But we might want to preserve relative current scale? 
-        // For simplicity, we stick to the existing logic which resets to "fit width" on resize
-        // unless you want to keep the current Zoom level.
-        const containerWidth = this.container.clientWidth || 768;
+
         this.pdfDoc.getPage(this.pageNum).then(p => {
             const unscaled = p.getViewport({scale: 1});
-            this.baseScale = containerWidth / unscaled.width;
+
+            // Re-run Fit Logic on Resize
+            const wrapper = this.scrollWrapper;
+            const availWidth = wrapper.clientWidth;
+            const availHeight = wrapper.clientHeight;
+
+            let scale = availWidth / unscaled.width;
             
-            // If in fullscreen, maybe we want to just refit?
-            // Currently keeps behaviour: resets zoom to fit width on resize
+            if ((unscaled.height * scale) > availHeight) {
+                scale = (availWidth - 18) / unscaled.width;
+            }
+
+            this.baseScale = scale;
             this.currentScale = this.baseScale; 
             this.renderPage(this.pageNum);
         });
