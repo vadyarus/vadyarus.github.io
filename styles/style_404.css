@@ -1,0 +1,16 @@
+/* 404 Page */
+.section-404 {
+    padding: 2em;
+    text-align: center;
+}
+
+.section__title--404 {
+    font-family: var(--ff-secondary);
+}
+
+@media (min-width: 768px) {
+    .section-404 {
+        max-width: var(--width-tablet);        
+        margin: 0 auto;
+    }
+}
