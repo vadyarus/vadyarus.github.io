@@ -3,22 +3,25 @@
     <head>
         <title>Vadim Maltsev</title>
 
-        <!-- HEAD -->
+        <!-- HEAD TEMPLATE -->
 
         <link rel="stylesheet" type="text/css" href="/styles/style_index_section--intro.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="/styles/style_index_section--services.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="/styles/style_index_section--aboutme.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="/styles/style_index_section--skills.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="/styles/style_index_section--mywork.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="/styles/style_gallery.css" media="screen" />
-        <script src="/scripts/layout.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="/styles/style_gallery.css" media="screen" />        
+        
+        <!-- Load in Supabase JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+        <!-- Page-specific JS -->
+        <script type="module" src="/scripts/pages/index-gallery.js" defer></script>
     </head>
     <body>
-        <!-- ### HEADER ### -->
-        <header class="section__header"></header>
+        <!-- HEADER TEMPLATE -->
 
         <!-- ### INTRODUCTION ### -->
-        <section class="intro__section" id="home">
+        <section class="intro__section" id="home"> 
             <h1 class="section__title intro__section--title">
                 Hi, I am <strong>Vadim Maltsev</strong>
             </h1>
@@ -80,20 +83,16 @@
             <img class="about-me__section--img" src="/images/4763222.jpg" alt="Vadim leaning against a bus">
         </section>
 
-
-        <!-- ### SKILLS ### -->
-        <section class="my-skills" id="skills">
-            <h2 class="section__title section__title--skills">My skills</h2>
-            <div id="skills-wrapper" class="skills"></div>
-        </section>
+        <!-- SKILLS TEMPLATE -->
 
         <!-- ### MY WORK ### -->
         <section class="my-work__section" id="work">
             <h2 class="section__title my-work__section--title">My work</h2>
             <!-- PORTFOLIO -->
+             
+            <div id="my-work-grid"></div>
         </section>
 
-        <!-- ### FOOTER ### -->
-        <footer></footer>
+        <!-- FOOTER TEMPLATE -->
     </body>
 </html>
