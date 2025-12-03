@@ -48,8 +48,13 @@ def build_site():
         template_path = os.path.join(TEMPLATES_DIR, template_name)
         output_path = os.path.join(OUTPUT_DIR, output_name)
 
+        # Ensure output directory exists (e.g., for pages/contact.html)
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
         if not os.path.exists(template_path):
-            print(f"Warning: Template file '{template_path}' not found. Skipping.")
+            # Only warn if it's the index, others might be work-in-progress
+            if template_name == "index_template.html":
+                print(f"Warning: Template file '{template_path}' not found. Skipping.")
             continue
 
         with open(template_path, 'r', encoding='utf-8') as f:
