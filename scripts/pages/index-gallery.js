@@ -81,7 +81,9 @@ async function loadIndexGalleries() {
 
             const link = document.createElement('a');
             link.className = 'portfolio__item';
-            link.href = `/gallery.html?id=${gallery.id}`;
+
+            const ext = window.PAGE_EXT !== undefined ? window.PAGE_EXT : '';
+            link.href = `/gallery${ext}?id=${gallery.id}`;
 
             const locationHTML = gallery.location
                 ? `<span style="font-size: 0.8em; font-weight: normal;">${gallery.location}</span>`

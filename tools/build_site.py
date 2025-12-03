@@ -1,4 +1,6 @@
 import os
+import re
+import sys
 
 # Configuration
 COMPONENTS_DIR = "components"
@@ -38,8 +40,34 @@ def load_all_components():
         components_content[placeholder] = load_component(filename)
     return components_content
 
+def clean_links_for_production(html_content):
+    """
+    Removes .html extension from internal links for clean URLs on GitHub Pages.
+    Matches href="/page.html" or href="page.html"
+    Ignores http://, https://, or // (external links)
+    """
+    def replace_match(match):
+        # match.group(1) is the 'href="' part
+        # match.group(2) is the URL content
+        # match.group(3) is the closing quote
 
-def build_site():       
+        url = match.group(2)
+
+        # Skip external links and anchors
+        if url.startswith(("http:", "https:", "//", "#", "mailto:", "tel:")):
+            return match.group(0)
+        
+        # Remove .html extension if it exists at the end
+        if url.endswith(".html"):
+            new_url = url[:-5] # Strip last 5 chars
+            return f'{match.group(1)}{new_url}{match.group(3)}'
+        return match.group(0)
+
+    # Capture href="url" or href='url'
+    pattern = re.compile(r'(href=")([^"]+)(")')
+    return re.sub(pattern, replace_match, html_content)
+
+def build_site(is_prod = False):       
     # Pre-load all components into memory
     loaded_components = load_all_components()
 
@@ -83,14 +111,22 @@ def build_site():
                     page_html = page_html.replace(placeholder, formatted_content)
 
                 print(f"  [✓] Injected {COMPONENTS[placeholder]} into {output_name}")
-                
+               
+        # Production Cleanup (Only if flag is set) 
+        if is_prod:
+            page_html = clean_links_for_production(page_html)
+            print(f"  [P] Cleaned links for Production in {output_name}")
+
         # Write the final HTML to output file
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(page_html)
             
         print(f"  Generated {output_path}")
 
-if __name__ == "__main__":
-    print("Starting Build Process...")
-    build_site()
+if __name__ == "__main__":    
+    # Check for --prod argument
+    is_prod_env = '--production' in sys.argv
+
+    print(f"Starting Build Process (Production={is_prod_env})...")
+    build_site(is_prod=is_prod_env)
     print("Build Complete.")
