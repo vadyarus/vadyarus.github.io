@@ -1,7 +1,7 @@
 const SUPABASE_URL = 'https://tqfxvsozbeevwmfanqra.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRxZnh2c296YmVldndtZmFucXJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ2NTg2ODUsImV4cCI6MjA4MDIzNDY4NX0.fcM7nBDFotBQQHNhDXLRRZywX6unMoe0otdP5LFM-SQ';
 const BUCKET_NAME = 'portfolio-images';
-const BASE_STORAGE_URL = `${SUPABASE_URL}/storage/v1/object/public/${BUCKET_NAME}`;
+const BASE_STORAGE_URL = `https://assets.vadim.guru/${BUCKET_NAME}`;
 
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
