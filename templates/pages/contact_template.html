@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact | Vadim Maltsev</title>
+
+        <!-- HEAD TEMPLATE -->
+
+        <!-- Web3Forms hCaptcha -->
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+
+        <!-- Contact form script -->
+        <script type="text/javascript" src="/scripts/pages/contactform.js" defer></script>
+
+        <link rel="stylesheet" type="text/css" href="/styles/style_contact.css" media="screen" />
+    </head>
+    <body>
+        <!-- HEADER TEMPLATE -->
+
+        <!-- ### CONTACT ### -->
+        <section class="section__contact">
+            <form class="section__contact--form" id="contact-form" method="POST">
+                <h1 class="section__contact--header">Contact</h1>
+                <input type="hidden" name="contact_number">
+                <input class="section__contact--input" type="text" placeholder="Name" required name="contact_name">
+                <input class="section__contact--input" type="email" placeholder="Your email address" required name="contact_email">
+                <input class="section__contact--input" type="text" placeholder="Subject" required name="subject">
+                <textarea class="section__contact--message" name="message" placeholder="Message" required name="message"></textarea>
+
+                <div id="recaptcha" class="g-recaptcha"
+                    data-sitekey="6LdYC10gAAAAAL0gkZT2eDNrbZ_ghl3GwE5zl5l3"
+                    data-callback="onSubmit"
+                    data-size="invisible">
+                </div>
+
+                <div class="h-captcha" data-captcha="true"></div>
+
+                <input class="section__contact--submit btn" type="submit" value="Submit">
+            </form>
+
+            <div class="section__contact--success hidden" id="contact-success">
+                <h2>Thank you!</h2>
+                <h3>Your submission has been received.</h3>
+                <i class="fa-solid fa-circle-check section__contact--icon"></i>
+                <a href="/" class="btn">Go to Homepage</a>
+            </div>
+
+            <div class="section__contact--failed hidden" id="contact-failed">
+                <h2>Uh oh!</h2>
+                <h3>Something went wrong!</h3>
+                <i class="fa-solid fa-bug section__contact--icon"></i>
+                <p id="response-code">bloop</p>
+                <button id="retry-button" class="btn" style="margin-right: 10px; cursor: pointer;">Try Again</button>
+                <a href="/" class="btn">Go to Homepage</a>
+            </div>
+        </section>
+
+        <!-- FOOTER TEMPLATE -->
+    </body>
+</html>
