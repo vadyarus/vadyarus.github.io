@@ -22,3 +22,8 @@ index.html
 gallery-view.html
 gallery.html
 pages/*.html
+
+# Python ignores (if you use any Python scripts locally)
+__pycache__/
+*.py[cod]
+*$py.class
