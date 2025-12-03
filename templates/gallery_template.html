@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gallery View | Vadim Maltsev</title>
+        
+        <!-- HEAD TEMPLATE -->
+
+        <!-- Initialize jquery at the start of loading the page. -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <!-- Load in the lightbox script and styling. -->
+        <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe-lightbox.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/lightbox-caption.css">
+        
+        <!-- Load in Supabase JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+        <!-- Load in Mozilla PDF.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/styles/style_gallery.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/styles/style_pdf.css" media="screen" />
+
+        <!-- Page-specific JS -->
+        <script type="module" src="/scripts/pages/gallery-view.js" defer></script>        
+    </head>
+    <body>
+        <!-- HEADER TEMPLATE -->
+
+        <section class="gallery" id="home">
+            <h1 class="section__title section__title--gallery">
+                <strong id="gallery-title">Loading...</strong>
+            </h1>
+            <!-- <h2 id="gallery-subtitle" class="section__subtitle section__subtitle--intro">Loading...</h2> -->
+            <h2 id="gallery-location" class="section__subtitle section__subtitle--intro">Loading...</h2>
+            
+            <div id="gallery-video-container" style="display: none;">
+                <video class="portfolio__video" controls oncontextmenu="return false;">
+                    <source id="gallery-video-source" src="" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div id="gallery-content-root"></div>
+
+            <div id="gallery-drawing-container" class="portfolio__pdf"></div>
+        </section>
+        
+        <!-- FOOTER TEMPLATE -->
+    </body>
+</html>
