@@ -14,6 +14,7 @@ COMPONENTS = {
     "<!-- HEADER TEMPLATE -->": "header.html",
     "<!-- FOOTER TEMPLATE -->": "footer.html",
     "<!-- SKILLS TEMPLATE -->": "skills-cloud.html",
+    "<!-- MAP TEMPLATE -->": "map.html",
 }
 
 # Mapping of Template -> Output File
