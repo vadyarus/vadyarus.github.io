@@ -1,0 +1,76 @@
+{
+  "title": "Indiana Government Center",
+  "location": "Indianapolis, Indiana",
+  "folder": "Indiana_Government_Center_Indianapolis_IN",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "IndianaGC_Coffee_V12.webp",
+          "thumb": "IndianaGC_Coffee_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Coffee"
+        },
+        {
+          "src": "IndianaGC_Deli_V12.webp",
+          "thumb": "IndianaGC_Deli_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Deli"
+        },
+        {
+          "src": "IndianaGC_FoodHallView1_V11.webp",
+          "thumb": "IndianaGC_FoodHallView1_V11_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Food Hall View1"
+        },
+        {
+          "src": "IndianaGC_FoodHallView2_V9.webp",
+          "thumb": "IndianaGC_FoodHallView2_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Food Hall View2"
+        },
+        {
+          "src": "IndianaGC_GrillePOS_V9.webp",
+          "thumb": "IndianaGC_GrillePOS_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Grille POS"
+        },
+        {
+          "src": "IndianaGC_Grille_V9.webp",
+          "thumb": "IndianaGC_Grille_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Grille"
+        },
+        {
+          "src": "IndianaGC_Hearth_V11.webp",
+          "thumb": "IndianaGC_Hearth_V11_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Hearth"
+        },
+        {
+          "src": "IndianaGC_LocalRestaurant_V13.webp",
+          "thumb": "IndianaGC_LocalRestaurant_V13_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Local Restaurant"
+        },
+        {
+          "src": "IndianaGC_Market_V11.webp",
+          "thumb": "IndianaGC_Market_V11_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Indiana GC Market"
+        }
+      ]
+    }
+  ]
+}

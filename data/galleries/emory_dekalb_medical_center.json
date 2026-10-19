@@ -1,0 +1,62 @@
+{
+  "title": "Emory Healthcare DeKalb Medical Center",
+  "location": "Decatur, Georgia",
+  "folder": "Emory_Healthcare_DeKalb_Medical_Center_Decatur_GA",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "EmoryDeKalb_GoodGrain_V16.webp",
+          "thumb": "EmoryDeKalb_GoodGrain_V16_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory De Kalb Good Grain"
+        },
+        {
+          "src": "EmoryDeKalb_Jack&Olive_V9.webp",
+          "thumb": "EmoryDeKalb_Jack&Olive_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory De Kalb Jack&Olive"
+        },
+        {
+          "src": "EmoryDeKalb_Oasis_V2.webp",
+          "thumb": "EmoryDeKalb_Oasis_V2_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory De Kalb Oasis"
+        },
+        {
+          "src": "EmoryDeKalb_Overall_View1_V15.webp",
+          "thumb": "EmoryDeKalb_Overall_View1_V15_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory De Kalb Overall View1"
+        },
+        {
+          "src": "EmoryDeKalb_Overall_View2_V12.webp",
+          "thumb": "EmoryDeKalb_Overall_View2_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory De Kalb Overall View2"
+        },
+        {
+          "src": "EmoryDeKalb_SimplySalads_V15.webp",
+          "thumb": "EmoryDeKalb_SimplySalads_V15_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory De Kalb Simply Salads"
+        },
+        {
+          "src": "EmoryDeKalb_TacoShoppe&Create_V19.webp",
+          "thumb": "EmoryDeKalb_TacoShoppe&Create_V19_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory De Kalb Taco Shoppe&Create"
+        }
+      ]
+    }
+  ]
+}

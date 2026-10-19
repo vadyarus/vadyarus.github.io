@@ -1,0 +1,76 @@
+{
+  "title": "Department of Education",
+  "location": "Washington, D.C.",
+  "folder": "Department_Education_Washington_DC",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "DeptEducation_Birdseye_V1.webp",
+          "thumb": "DeptEducation_Birdseye_V1_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education Birdseye"
+        },
+        {
+          "src": "DeptEducation_View1_V19.webp",
+          "thumb": "DeptEducation_View1_V19_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View1"
+        },
+        {
+          "src": "DeptEducation_View2_V14.webp",
+          "thumb": "DeptEducation_View2_V14_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View2"
+        },
+        {
+          "src": "DeptEducation_View3_V12.webp",
+          "thumb": "DeptEducation_View3_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View3"
+        },
+        {
+          "src": "DeptEducation_View4_V19.webp",
+          "thumb": "DeptEducation_View4_V19_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View4"
+        },
+        {
+          "src": "DeptEducation_View5_V24.webp",
+          "thumb": "DeptEducation_View5_V24_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View5"
+        },
+        {
+          "src": "DeptEducation_View6_V9.webp",
+          "thumb": "DeptEducation_View6_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View6"
+        },
+        {
+          "src": "DeptEducation_View7_V8.webp",
+          "thumb": "DeptEducation_View7_V8_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View7"
+        },
+        {
+          "src": "DeptEducation_View8_V10.webp",
+          "thumb": "DeptEducation_View8_V10_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dept Education View8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Hoosier Village Retirement Center",
+  "location": "Indianapolis, Indiana",
+  "folder": "Hoosier_Village_Retirement_Center_Indianapolis_IN",
+  "video": "HoosierVillage_1080p_v6.mp4",
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "HoosierVillage_Bar_V40_Hires.webp",
+          "thumb": "HoosierVillage_Bar_V40_Hires_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Bar V40 Hires"
+        },
+        {
+          "src": "HoosierVillage_ExhibitionKitchen_CurvedSeating_V74_HiRes.webp",
+          "thumb": "HoosierVillage_ExhibitionKitchen_CurvedSeating_V74_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Exhibition Kitchen Curved Seating V74 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_ExhibitionKitchen_Dining_V20_HiRes.webp",
+          "thumb": "HoosierVillage_ExhibitionKitchen_Dining_V20_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Exhibition Kitchen Dining V20 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_ExhibitionKitchen_InductionCookers_V86_HiRes.webp",
+          "thumb": "HoosierVillage_ExhibitionKitchen_InductionCookers_V86_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Exhibition Kitchen Induction Cookers V86 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_HawthornHall_BarSeating_V69_HiRes.webp",
+          "thumb": "HoosierVillage_HawthornHall_BarSeating_V69_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Hawthorn Hall Bar Seating V69 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_HawthornHall_FarmTable_V74_HiRes.webp",
+          "thumb": "HoosierVillage_HawthornHall_FarmTable_V74_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Hawthorn Hall Farm Table V74 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_HawthornHall_Grill_V53_HiRes.webp",
+          "thumb": "HoosierVillage_HawthornHall_Grill_V53_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Hawthorn Hall Grill V53 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_HawthornHall_Overall_V79_HiRes.webp",
+          "thumb": "HoosierVillage_HawthornHall_Overall_V79_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Hawthorn Hall Overall V79 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_Lobby_V28_HiRes.webp",
+          "thumb": "HoosierVillage_Lobby_V28_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Lobby V28 Hi Res"
+        },
+        {
+          "src": "HoosierVillage_TeachingKitchen_V66_HiRes.webp",
+          "thumb": "HoosierVillage_TeachingKitchen_V66_HiRes_thumb.webp",
+          "width": 7680,
+          "height": 4320,
+          "alt": "Hoosier Village Teaching Kitchen V66 Hi Res"
+        }
+      ]
+    }
+  ]
+}

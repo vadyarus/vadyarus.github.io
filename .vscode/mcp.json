@@ -1,0 +1,37 @@
+{
+	"servers": {
+		"com.supabase/mcp": {
+			"type": "http",
+			"url": "https://mcp.supabase.com/mcp?project_ref=${input:project-ref}&read_only=${input:read-only}&features=${input:features}",
+			"headers": {
+				"Authorization": "Bearer ${input:SUPABASE_ACCESS_TOKEN}"
+			}
+		}
+	},
+	"inputs": [
+		{
+			"id": "project-ref",
+			"type": "promptString",
+			"description": "Supabase project reference ID",
+			"password": false
+		},
+		{
+			"id": "read-only",
+			"type": "promptString",
+			"description": "Enable read-only mode",
+			"password": false
+		},
+		{
+			"id": "features",
+			"type": "promptString",
+			"description": "Comma-separated list of features to enable",
+			"password": false
+		},
+		{
+			"id": "SUPABASE_ACCESS_TOKEN",
+			"type": "promptString",
+			"description": "Personal access token for Supabase API",
+			"password": true
+		}
+	]
+}

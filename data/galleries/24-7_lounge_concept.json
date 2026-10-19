@@ -1,0 +1,118 @@
+{
+  "title": "24-7 Lounge Concept",
+  "location": "",
+  "folder": "24-7_Lounge_Concept",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "https://tqfxvsozbeevwmfanqra.supabase.co/storage/v1/object/public/portfolio-images/24-7_Lounge_Concept/AtYourFingertips_View1.webp",
+          "thumb": "https://tqfxvsozbeevwmfanqra.supabase.co/storage/v1/object/public/portfolio-images/24-7_Lounge_Concept/AtYourFingertips_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "At Your Fingertips View1"
+        },
+        {
+          "src": "https://tqfxvsozbeevwmfanqra.supabase.co/storage/v1/object/public/portfolio-images/24-7_Lounge_Concept/AtYourFingertips_View2.webp",
+          "thumb": "https://tqfxvsozbeevwmfanqra.supabase.co/storage/v1/object/public/portfolio-images/24-7_Lounge_Concept/AtYourFingertips_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "At Your Fingertips View2"
+        },
+        {
+          "src": "https://tqfxvsozbeevwmfanqra.supabase.co/storage/v1/object/public/portfolio-images/24-7_Lounge_Concept/AtYourFingertips_View3.webp",
+          "thumb": "https://tqfxvsozbeevwmfanqra.supabase.co/storage/v1/object/public/portfolio-images/24-7_Lounge_Concept/AtYourFingertips_View3_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "At Your Fingertips View3"
+        },
+        {
+          "src": "Essentials.webp",
+          "thumb": "Essentials_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Essentials"
+        },
+        {
+          "src": "GrainBowls.webp",
+          "thumb": "GrainBowls_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Grain Bowls"
+        },
+        {
+          "src": "HotTea.webp",
+          "thumb": "HotTea_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hot Tea"
+        },
+        {
+          "src": "NitroBrew_View1.webp",
+          "thumb": "NitroBrew_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Nitro Brew View1"
+        },
+        {
+          "src": "NitroBrew_View2.webp",
+          "thumb": "NitroBrew_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Nitro Brew View2"
+        },
+        {
+          "src": "NitroBrew_View3.webp",
+          "thumb": "NitroBrew_View3_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Nitro Brew View3"
+        },
+        {
+          "src": "QuietZone_View1.webp",
+          "thumb": "QuietZone_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Quiet Zone View1"
+        },
+        {
+          "src": "QuietZone_View2.webp",
+          "thumb": "QuietZone_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Quiet Zone View2"
+        },
+        {
+          "src": "QuietZone_View3.webp",
+          "thumb": "QuietZone_View3_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Quiet Zone View3"
+        },
+        {
+          "src": "QuietZone_View4.webp",
+          "thumb": "QuietZone_View4_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Quiet Zone View4"
+        },
+        {
+          "src": "SelfOrderKiosk.webp",
+          "thumb": "SelfOrderKiosk_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Self Order Kiosk"
+        },
+        {
+          "src": "TimeSavingTech.webp",
+          "thumb": "TimeSavingTech_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Time Saving Tech"
+        }
+      ]
+    }
+  ]
+}

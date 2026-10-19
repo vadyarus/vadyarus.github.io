@@ -1,0 +1,27 @@
+{
+  "title": "Daily Press Concept",
+  "location": "",
+  "folder": "Daily_Press_Concept",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "DailyPress_View1_V107.webp",
+          "thumb": "DailyPress_View1_V107_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Daily Press View1"
+        },
+        {
+          "src": "DailyPress_View2_V69.webp",
+          "thumb": "DailyPress_View2_V69_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Daily Press View2"
+        }
+      ]
+    }
+  ]
+}

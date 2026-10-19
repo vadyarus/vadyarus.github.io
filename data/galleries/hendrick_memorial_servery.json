@@ -1,0 +1,76 @@
+{
+  "title": "Hendrick Memorial Servery",
+  "location": "",
+  "folder": "Hendrick_Memorial_Servery",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Hendrick_Servery_Create_V14.webp",
+          "thumb": "Hendrick_Servery_Create_V14_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Create"
+        },
+        {
+          "src": "Hendrick_Servery_GoodGrains_V9.webp",
+          "thumb": "Hendrick_Servery_GoodGrains_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Good Grains"
+        },
+        {
+          "src": "Hendrick_Servery_HandKraftedBurger_V13.webp",
+          "thumb": "Hendrick_Servery_HandKraftedBurger_V13_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Hand Krafted Burger"
+        },
+        {
+          "src": "Hendrick_Servery_ItalianKitchen_V13.webp",
+          "thumb": "Hendrick_Servery_ItalianKitchen_V13_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Italian Kitchen"
+        },
+        {
+          "src": "Hendrick_Servery_Jack&Olive_V9.webp",
+          "thumb": "Hendrick_Servery_Jack&Olive_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Jack&Olive"
+        },
+        {
+          "src": "Hendrick_Servery_Oasis2_V5.webp",
+          "thumb": "Hendrick_Servery_Oasis2_V5_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Oasis2"
+        },
+        {
+          "src": "Hendrick_Servery_Oasis_V8.webp",
+          "thumb": "Hendrick_Servery_Oasis_V8_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Oasis"
+        },
+        {
+          "src": "Hendrick_Servery_RotatingBrands_V9.webp",
+          "thumb": "Hendrick_Servery_RotatingBrands_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Rotating Brands"
+        },
+        {
+          "src": "Hendrick_Servery_SimplySalads&TheSoupBowl_V12.webp",
+          "thumb": "Hendrick_Servery_SimplySalads&TheSoupBowl_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Servery Simply Salads&The Soup Bowl"
+        }
+      ]
+    }
+  ]
+}

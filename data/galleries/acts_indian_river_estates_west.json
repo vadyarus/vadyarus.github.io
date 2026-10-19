@@ -1,0 +1,34 @@
+{
+  "title": "ACTS Indian River Estates West",
+  "location": "",
+  "folder": "ACTS_Indian_River_Estates_West",
+  "video": "ACTS Indian River West.mp4",
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "ACTS_IndianRiverEstatesWest_View1.webp",
+          "thumb": "ACTS_IndianRiverEstatesWest_View1_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "ACTS Indian River Estates West View1"
+        },
+        {
+          "src": "ACTS_IndianRiverEstatesWest_View2.webp",
+          "thumb": "ACTS_IndianRiverEstatesWest_View2_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "ACTS Indian River Estates West View2"
+        },
+        {
+          "src": "ACTS_IndianRiverEstatesWest_View3.webp",
+          "thumb": "ACTS_IndianRiverEstatesWest_View3_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "ACTS Indian River Estates West View3"
+        }
+      ]
+    }
+  ]
+}

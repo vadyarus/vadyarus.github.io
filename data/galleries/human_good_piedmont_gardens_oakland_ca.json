@@ -1,0 +1,55 @@
+{
+  "title": "Human Good Piedmont Gardens Oakland CA",
+  "location": "",
+  "folder": "Human_Good_Piedmont_Gardens_Oakland_CA",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Render_View1_V60_Day.webp",
+          "thumb": "Render_View1_V60_Day_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View1 V60 Day"
+        },
+        {
+          "src": "Render_View1_V63_Night.webp",
+          "thumb": "Render_View1_V63_Night_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View1 V63 Night"
+        },
+        {
+          "src": "Render_View2_V37_Day.webp",
+          "thumb": "Render_View2_V37_Day_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View2 V37 Day"
+        },
+        {
+          "src": "Render_View2_V39_Night.webp",
+          "thumb": "Render_View2_V39_Night_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View2 V39 Night"
+        },
+        {
+          "src": "Render_View3_V51_Day.webp",
+          "thumb": "Render_View3_V51_Day_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View3 V51 Day"
+        },
+        {
+          "src": "Render_View3_V53_Night.webp",
+          "thumb": "Render_View3_V53_Night_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View3 V53 Night"
+        }
+      ]
+    }
+  ]
+}

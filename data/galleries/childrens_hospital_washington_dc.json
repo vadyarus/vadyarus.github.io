@@ -1,0 +1,111 @@
+{
+  "title": "Childrens Hospital Washington DC",
+  "location": "",
+  "folder": "Childrens_Hospital_Washington_DC",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "ChildrensHospitalDC_DailyGrindSeating_V17.webp",
+          "thumb": "ChildrensHospitalDC_DailyGrindSeating_V17_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Daily Grind Seating"
+        },
+        {
+          "src": "ChildrensHospitalDC_DailyGrind_V16.webp",
+          "thumb": "ChildrensHospitalDC_DailyGrind_V16_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Daily Grind"
+        },
+        {
+          "src": "ChildrensHospitalDC_Dining1_V17.webp",
+          "thumb": "ChildrensHospitalDC_Dining1_V17_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Dining1"
+        },
+        {
+          "src": "ChildrensHospitalDC_Dining2_V15.webp",
+          "thumb": "ChildrensHospitalDC_Dining2_V15_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Dining2"
+        },
+        {
+          "src": "ChildrensHospitalDC_GrillCo_V37.webp",
+          "thumb": "ChildrensHospitalDC_GrillCo_V37_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Grill Co"
+        },
+        {
+          "src": "ChildrensHospitalDC_ItalianKitchen_V44.webp",
+          "thumb": "ChildrensHospitalDC_ItalianKitchen_V44_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Italian Kitchen"
+        },
+        {
+          "src": "ChildrensHospitalDC_MainDish_V50.webp",
+          "thumb": "ChildrensHospitalDC_MainDish_V50_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Main Dish"
+        },
+        {
+          "src": "ChildrensHospitalDC_MarketSeedDeli_V55.webp",
+          "thumb": "ChildrensHospitalDC_MarketSeedDeli_V55_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Market Seed Deli"
+        },
+        {
+          "src": "ChildrensHospitalDC_MicroStation_V38.webp",
+          "thumb": "ChildrensHospitalDC_MicroStation_V38_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Micro Station"
+        },
+        {
+          "src": "ChildrensHospitalDC_Oasis_V36.webp",
+          "thumb": "ChildrensHospitalDC_Oasis_V36_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Oasis"
+        },
+        {
+          "src": "ChildrensHospitalDC_OnTheGoCheckout_V9.webp",
+          "thumb": "ChildrensHospitalDC_OnTheGoCheckout_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC On The Go Checkout"
+        },
+        {
+          "src": "ChildrensHospitalDC_POS_V1.webp",
+          "thumb": "ChildrensHospitalDC_POS_V1_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC POS"
+        },
+        {
+          "src": "ChildrensHospitalDC_SimplySaladsSoupBowl1_V48.webp",
+          "thumb": "ChildrensHospitalDC_SimplySaladsSoupBowl1_V48_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Simply Salads Soup Bowl1"
+        },
+        {
+          "src": "ChildrensHospitalDC_SimplySaladsSoupBowl2_V43.webp",
+          "thumb": "ChildrensHospitalDC_SimplySaladsSoupBowl2_V43_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Childrens Hospital DC Simply Salads Soup Bowl2"
+        }
+      ]
+    }
+  ]
+}

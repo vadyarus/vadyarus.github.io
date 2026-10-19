@@ -1,0 +1,88 @@
+{
+  "title": "HUP Hospital University Pennsylvania",
+  "location": "",
+  "folder": "HUP_Hospital_University_Pennsylvania",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "2017/HUP_DiningRoom2_V46.webp",
+          "thumb": "2017/HUP_DiningRoom2_V46_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Dining Room2"
+        },
+        {
+          "src": "2017/HUP_DiningRoom_HiRes.webp",
+          "thumb": "2017/HUP_DiningRoom_HiRes_thumb.webp",
+          "width": 10800,
+          "height": 6075,
+          "alt": "HUP Dining Room Hi Res"
+        },
+        {
+          "src": "2017/HUP_Servery2_V86.webp",
+          "thumb": "2017/HUP_Servery2_V86_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Servery2"
+        },
+        {
+          "src": "2017/HUP_Servery_HiRes.webp",
+          "thumb": "2017/HUP_Servery_HiRes_thumb.webp",
+          "width": 10800,
+          "height": 6075,
+          "alt": "HUP Servery Hi Res"
+        }
+      ]
+    },
+    {
+      "title": "Legacy",
+      "images": [
+        {
+          "src": "Legacy/HUP_Render_DiningRoom_V25.webp",
+          "thumb": "Legacy/HUP_Render_DiningRoom_V25_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Render Dining Room"
+        },
+        {
+          "src": "Legacy/HUP_Render_DiningRoom_V26.webp",
+          "thumb": "Legacy/HUP_Render_DiningRoom_V26_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Render Dining Room"
+        },
+        {
+          "src": "Legacy/HUP_Render_Servery_V30.webp",
+          "thumb": "Legacy/HUP_Render_Servery_V30_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Render Servery"
+        },
+        {
+          "src": "Legacy/HUP_Render_Servery_V31.webp",
+          "thumb": "Legacy/HUP_Render_Servery_V31_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Render Servery"
+        },
+        {
+          "src": "Legacy/HUP_Render_Starbucks_V23.webp",
+          "thumb": "Legacy/HUP_Render_Starbucks_V23_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Render Starbucks"
+        },
+        {
+          "src": "Legacy/HUP_Render_Starbucks_V24.webp",
+          "thumb": "Legacy/HUP_Render_Starbucks_V24_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HUP Render Starbucks"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Diakon Luther Crest",
+  "location": "Allentown, Pennsylvania",
+  "folder": "Diakon_Luther_Crest_Senior_Living_Allentown_PA",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Daikon_LutherCrest_Rendering_Bar_View1.webp",
+          "thumb": "Daikon_LutherCrest_Rendering_Bar_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Bar View1"
+        },
+        {
+          "src": "Daikon_LutherCrest_Rendering_Bar_View2.webp",
+          "thumb": "Daikon_LutherCrest_Rendering_Bar_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Bar View2"
+        },
+        {
+          "src": "Daikon_LutherCrest_Rendering_Expo_View1.webp",
+          "thumb": "Daikon_LutherCrest_Rendering_Expo_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Expo View1"
+        },
+        {
+          "src": "Daikon_LutherCrest_Rendering_Expo_View2.webp",
+          "thumb": "Daikon_LutherCrest_Rendering_Expo_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Expo View2"
+        }
+      ]
+    },
+    {
+      "title": "Conceptual Renderings",
+      "images": [
+        {
+          "src": "Concept/Daikon_LutherCrest_Rendering_CoffeeShop.webp",
+          "thumb": "Concept/Daikon_LutherCrest_Rendering_CoffeeShop_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Coffee Shop"
+        },
+        {
+          "src": "Concept/Daikon_LutherCrest_Rendering_Expo_View3.webp",
+          "thumb": "Concept/Daikon_LutherCrest_Rendering_Expo_View3_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Expo View3"
+        },
+        {
+          "src": "Concept/Daikon_LutherCrest_Rendering_Fullenbach.webp",
+          "thumb": "Concept/Daikon_LutherCrest_Rendering_Fullenbach_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Fullenbach"
+        },
+        {
+          "src": "Concept/Daikon_LutherCrest_Rendering_Grille.webp",
+          "thumb": "Concept/Daikon_LutherCrest_Rendering_Grille_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Grille"
+        },
+        {
+          "src": "Concept/Daikon_LutherCrest_Rendering_Hearth.webp",
+          "thumb": "Concept/Daikon_LutherCrest_Rendering_Hearth_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Hearth"
+        },
+        {
+          "src": "Concept/Daikon_LutherCrest_Rendering_Marketplace.webp",
+          "thumb": "Concept/Daikon_LutherCrest_Rendering_Marketplace_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Marketplace"
+        },
+        {
+          "src": "Concept/Daikon_LutherCrest_Rendering_OutdoorDining.webp",
+          "thumb": "Concept/Daikon_LutherCrest_Rendering_OutdoorDining_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Daikon Luther Crest Rendering Outdoor Dining"
+        }
+      ]
+    }
+  ]
+}

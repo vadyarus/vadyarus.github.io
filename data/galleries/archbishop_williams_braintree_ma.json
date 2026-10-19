@@ -1,0 +1,41 @@
+{
+  "title": "Archbishop Williams Braintree MA",
+  "location": "",
+  "folder": "Archbishop_Williams_Braintree_MA",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Render_View1_B-Y-O-Burger-Deli_V46.webp",
+          "thumb": "Render_View1_B-Y-O-Burger-Deli_V46_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View1 B Y O Burger Deli"
+        },
+        {
+          "src": "Render_View2_Global_V40.webp",
+          "thumb": "Render_View2_Global_V40_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View2 Global"
+        },
+        {
+          "src": "Render_View3_FarmToSchool_V49.webp",
+          "thumb": "Render_View3_FarmToSchool_V49_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View3 Farm To School"
+        },
+        {
+          "src": "Render_View4_Cafe_V43.webp",
+          "thumb": "Render_View4_Cafe_V43_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Render View4 Cafe"
+        }
+      ]
+    }
+  ]
+}

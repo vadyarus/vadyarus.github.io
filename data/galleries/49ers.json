@@ -1,0 +1,90 @@
+{
+  "title": "49ers Stadium",
+  "location": "Santa Clara, California",
+  "folder": "49ers_Stadium_SantaClara_CA",
+  "video": "49ers_Flythrough_V1b.mp4",
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "SF49ers_01_Entrance.webp",
+          "thumb": "SF49ers_01_Entrance_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Entrance"
+        },
+        {
+          "src": "SF49ers_02_FoodHallOverall.webp",
+          "thumb": "SF49ers_02_FoodHallOverall_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Food Hall Overall"
+        },
+        {
+          "src": "SF49ers_03_Deli-Grill.webp",
+          "thumb": "SF49ers_03_Deli-Grill_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Deli Grill"
+        },
+        {
+          "src": "SF49ers_04_Deli.webp",
+          "thumb": "SF49ers_04_Deli_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Deli"
+        },
+        {
+          "src": "SF49ers_05_Grill.webp",
+          "thumb": "SF49ers_05_Grill_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Grill"
+        },
+        {
+          "src": "SF49ers_06_Exhibition.webp",
+          "thumb": "SF49ers_06_Exhibition_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Exhibition"
+        },
+        {
+          "src": "SF49ers_07_Entree.webp",
+          "thumb": "SF49ers_07_Entree_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Entree"
+        },
+        {
+          "src": "SF49ers_08_BeverageCounter.webp",
+          "thumb": "SF49ers_08_BeverageCounter_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Beverage Counter"
+        },
+        {
+          "src": "SF49ers_09_GarageDoorWall.webp",
+          "thumb": "SF49ers_09_GarageDoorWall_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Garage Door Wall"
+        },
+        {
+          "src": "SF49ers_10_PerformanceBar.webp",
+          "thumb": "SF49ers_10_PerformanceBar_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Performance Bar"
+        },
+        {
+          "src": "SF49ers_11_PerformanceBarSeating.webp",
+          "thumb": "SF49ers_11_PerformanceBarSeating_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Performance Bar Seating"
+        }
+      ]
+    }
+  ]
+}

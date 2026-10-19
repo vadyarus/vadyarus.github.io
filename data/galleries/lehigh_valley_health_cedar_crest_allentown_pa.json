@@ -1,0 +1,76 @@
+{
+  "title": "Lehigh Valley Health Cedar Crest Allentown PA",
+  "location": "",
+  "folder": "Lehigh_Valley_Health_Cedar_Crest_Allentown_PA",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "LehighValleyHealth_CedarCrest_AFC-Sushi_V17.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_AFC-Sushi_V17_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest AFC Sushi"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_GoodGrains_V19.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_GoodGrains_V19_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest Good Grains"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_HandKraftedBurger_V14.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_HandKraftedBurger_V14_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest Hand Krafted Burger"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_ItalianKitchen_V19.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_ItalianKitchen_V19_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest Italian Kitchen"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_Jack&Olive_V19.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_Jack&Olive_V19_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest Jack&Olive"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_Oasis_V9.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_Oasis_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest Oasis"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_RotatingBrands_V8.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_RotatingBrands_V8_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest Rotating Brands"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_SimplySalads&SuperFoods_V23.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_SimplySalads&SuperFoods_V23_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest Simply Salads&Super Foods"
+        },
+        {
+          "src": "LehighValleyHealth_CedarCrest_TheRoost_V17.webp",
+          "thumb": "LehighValleyHealth_CedarCrest_TheRoost_V17_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Lehigh Valley Health Cedar Crest The Roost"
+        }
+      ]
+    }
+  ]
+}

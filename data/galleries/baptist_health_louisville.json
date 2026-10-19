@@ -1,0 +1,83 @@
+{
+  "title": "Baptist Health Louisville",
+  "location": "Louisville, Kentucky",
+  "folder": "Baptist_Health_Louisville_KY",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "BalladHealth_01_Overall_V2.webp",
+          "thumb": "BalladHealth_01_Overall_V2_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Overall"
+        },
+        {
+          "src": "BalladHealth_02_SoupBowl_V10.webp",
+          "thumb": "BalladHealth_02_SoupBowl_V10_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Soup Bowl"
+        },
+        {
+          "src": "BalladHealth_03_SimplySalads_V10.webp",
+          "thumb": "BalladHealth_03_SimplySalads_V10_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Simply Salads"
+        },
+        {
+          "src": "BalladHealth_04_BuildPizza_V11.webp",
+          "thumb": "BalladHealth_04_BuildPizza_V11_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Build Pizza"
+        },
+        {
+          "src": "BalladHealth_05_HKB_V8.webp",
+          "thumb": "BalladHealth_05_HKB_V8_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "HKB"
+        },
+        {
+          "src": "BalladHealth_06_Meatballs_V8.webp",
+          "thumb": "BalladHealth_06_Meatballs_V8_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Meatballs"
+        },
+        {
+          "src": "BalladHealth_07_MarketBBQ_V11.webp",
+          "thumb": "BalladHealth_07_MarketBBQ_V11_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Market BBQ"
+        },
+        {
+          "src": "BalladHealth_08_Oasis_V9.webp",
+          "thumb": "BalladHealth_08_Oasis_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Oasis"
+        },
+        {
+          "src": "BalladHealth_09_JO_outside.webp",
+          "thumb": "BalladHealth_09_JO_outside_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "JO outside"
+        },
+        {
+          "src": "BalladHealth_10_JackOlive_V9.webp",
+          "thumb": "BalladHealth_10_JackOlive_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Jack Olive"
+        }
+      ]
+    }
+  ]
+}

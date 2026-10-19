@@ -1,0 +1,76 @@
+{
+  "title": "Hillcrest Senior Living",
+  "location": "La Verne, California",
+  "folder": "Hillcrest_La_Verne_CA",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Hillcrest_Dining_View1.webp",
+          "thumb": "Hillcrest_Dining_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Dining View1"
+        },
+        {
+          "src": "Hillcrest_Dining_View2.webp",
+          "thumb": "Hillcrest_Dining_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Dining View2"
+        },
+        {
+          "src": "Hillcrest_Dining_View3.webp",
+          "thumb": "Hillcrest_Dining_View3_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Dining View3"
+        },
+        {
+          "src": "Hillcrest_Dining_View4.webp",
+          "thumb": "Hillcrest_Dining_View4_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Dining View4"
+        },
+        {
+          "src": "Hillcrest_Dining_View5.webp",
+          "thumb": "Hillcrest_Dining_View5_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Dining View5"
+        },
+        {
+          "src": "Hillcrest_Dining_View6.webp",
+          "thumb": "Hillcrest_Dining_View6_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Dining View6"
+        },
+        {
+          "src": "Hillcrest_Expo_View1.webp",
+          "thumb": "Hillcrest_Expo_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Expo View1"
+        },
+        {
+          "src": "Hillcrest_Expo_View2.webp",
+          "thumb": "Hillcrest_Expo_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Expo View2"
+        },
+        {
+          "src": "Hillcrest_Hostess_View1.webp",
+          "thumb": "Hillcrest_Hostess_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Hillcrest Hostess View1"
+        }
+      ]
+    }
+  ]
+}

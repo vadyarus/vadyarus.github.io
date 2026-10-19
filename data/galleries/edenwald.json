@@ -1,0 +1,214 @@
+{
+  "title": "Edenwald",
+  "location": "Towson, Maryland",
+  "folder": "Edenwald_Towson_MD",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Edenwald_Coffee_V55.webp",
+          "thumb": "Edenwald_Coffee_V55_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Coffee"
+        },
+        {
+          "src": "Edenwald_DeliActionPOS_V52.webp",
+          "thumb": "Edenwald_DeliActionPOS_V52_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Deli Action POS"
+        },
+        {
+          "src": "Edenwald_EntreeGrill_V54.webp",
+          "thumb": "Edenwald_EntreeGrill_V54_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Entree Grill"
+        },
+        {
+          "src": "Edenwald_SaladbarCoffee_V66.webp",
+          "thumb": "Edenwald_SaladbarCoffee_V66_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Saladbar Coffee"
+        }
+      ]
+    },
+    {
+      "title": "As Built Photography",
+      "images": [
+        {
+          "src": "Eugene/EUG_3283-1.webp",
+          "thumb": "Eugene/EUG_3283-1_thumb.webp",
+          "width": 6016,
+          "height": 4016,
+          "alt": "EUG 3283 1"
+        },
+        {
+          "src": "Eugene/EUG_3287-HDR.webp",
+          "thumb": "Eugene/EUG_3287-HDR_thumb.webp",
+          "width": 5706,
+          "height": 3235,
+          "alt": "EUG 3287 HDR"
+        },
+        {
+          "src": "Eugene/EUG_3291-HDR-3.webp",
+          "thumb": "Eugene/EUG_3291-HDR-3_thumb.webp",
+          "width": 5824,
+          "height": 3067,
+          "alt": "EUG 3291 HDR 3"
+        },
+        {
+          "src": "Eugene/EUG_3301-2.webp",
+          "thumb": "Eugene/EUG_3301-2_thumb.webp",
+          "width": 5611,
+          "height": 3514,
+          "alt": "EUG 3301 2"
+        },
+        {
+          "src": "Eugene/EUG_3307.webp",
+          "thumb": "Eugene/EUG_3307_thumb.webp",
+          "width": 6016,
+          "height": 4016,
+          "alt": "EUG 3307"
+        },
+        {
+          "src": "Eugene/EUG_3313-2.webp",
+          "thumb": "Eugene/EUG_3313-2_thumb.webp",
+          "width": 6015,
+          "height": 4005,
+          "alt": "EUG 3313 2"
+        },
+        {
+          "src": "Eugene/EUG_3317-HDR.webp",
+          "thumb": "Eugene/EUG_3317-HDR_thumb.webp",
+          "width": 5999,
+          "height": 4005,
+          "alt": "EUG 3317 HDR"
+        },
+        {
+          "src": "Eugene/EUG_3336..webp",
+          "thumb": "Eugene/EUG_3336._thumb.webp",
+          "width": 6016,
+          "height": 4016,
+          "alt": "EUG 3336."
+        },
+        {
+          "src": "Eugene/EUG_3382-Edit-2.webp",
+          "thumb": "Eugene/EUG_3382-Edit-2_thumb.webp",
+          "width": 4789,
+          "height": 3088,
+          "alt": "EUG 3382 Edit 2"
+        },
+        {
+          "src": "Eugene/EUG_3388-HDR-2.webp",
+          "thumb": "Eugene/EUG_3388-HDR-2_thumb.webp",
+          "width": 5912,
+          "height": 3936,
+          "alt": "EUG 3388 HDR 2"
+        },
+        {
+          "src": "Eugene/EUG_3414-HDR.webp",
+          "thumb": "Eugene/EUG_3414-HDR_thumb.webp",
+          "width": 6001,
+          "height": 4006,
+          "alt": "EUG 3414 HDR"
+        },
+        {
+          "src": "Eugene/EUG_3442-HDR-1.webp",
+          "thumb": "Eugene/EUG_3442-HDR-1_thumb.webp",
+          "width": 5494,
+          "height": 2746,
+          "alt": "EUG 3442 HDR 1"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2100.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2100_thumb.webp",
+          "width": 6212,
+          "height": 4146,
+          "alt": "Edenwald Cafe 2100"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2104.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2104_thumb.webp",
+          "width": 5899,
+          "height": 3840,
+          "alt": "Edenwald Cafe 2104"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2127.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2127_thumb.webp",
+          "width": 5951,
+          "height": 4175,
+          "alt": "Edenwald Cafe 2127"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2130.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2130_thumb.webp",
+          "width": 5841,
+          "height": 4029,
+          "alt": "Edenwald Cafe 2130"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2137.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2137_thumb.webp",
+          "width": 5502,
+          "height": 3791,
+          "alt": "Edenwald Cafe 2137"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2157.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2157_thumb.webp",
+          "width": 5846,
+          "height": 4101,
+          "alt": "Edenwald Cafe 2157"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2169.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2169_thumb.webp",
+          "width": 6256,
+          "height": 3549,
+          "alt": "Edenwald Cafe 2169"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2183.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2183_thumb.webp",
+          "width": 6321,
+          "height": 4188,
+          "alt": "Edenwald Cafe 2183"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2202.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2202_thumb.webp",
+          "width": 6219,
+          "height": 4185,
+          "alt": "Edenwald Cafe 2202"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2228.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2228_thumb.webp",
+          "width": 6010,
+          "height": 4048,
+          "alt": "Edenwald Cafe 2228"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2230.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2230_thumb.webp",
+          "width": 5978,
+          "height": 4010,
+          "alt": "Edenwald Cafe 2230"
+        },
+        {
+          "src": "NathanCox/EdenwaldCafe_2282.webp",
+          "thumb": "NathanCox/EdenwaldCafe_2282_thumb.webp",
+          "width": 6008,
+          "height": 4060,
+          "alt": "Edenwald Cafe 2282"
+        }
+      ]
+    }
+  ]
+}

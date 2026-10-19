@@ -1,0 +1,48 @@
+{
+  "title": "Bazdar Garage",
+  "location": "",
+  "folder": "Bazdar_Garage",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Exterior_View1.webp",
+          "thumb": "Exterior_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Exterior View1"
+        },
+        {
+          "src": "Exterior_View2.webp",
+          "thumb": "Exterior_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Exterior View2"
+        },
+        {
+          "src": "Interior_View1.webp",
+          "thumb": "Interior_View1_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Interior View1"
+        },
+        {
+          "src": "Interior_View2.webp",
+          "thumb": "Interior_View2_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Interior View2"
+        },
+        {
+          "src": "Interior_View3.webp",
+          "thumb": "Interior_View3_thumb.webp",
+          "width": 3840,
+          "height": 2160,
+          "alt": "Interior View3"
+        }
+      ]
+    }
+  ]
+}

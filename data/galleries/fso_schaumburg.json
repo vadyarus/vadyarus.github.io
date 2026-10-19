@@ -1,0 +1,172 @@
+{
+  "title": "FSO Friendship Village Schaumburg",
+  "location": "Schaumburg, Illinois",
+  "folder": "FSO_FriendshipVillageSchaumburg_Schaumburg_IL",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "FSO_Lounge_V36.webp",
+          "thumb": "FSO_Lounge_V36_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "FSO Lounge"
+        },
+        {
+          "src": "FSO_Sheffields_View1_V75.webp",
+          "thumb": "FSO_Sheffields_View1_V75_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "FSO Sheffields View1"
+        },
+        {
+          "src": "FSO_Sheffields_View2_V72.webp",
+          "thumb": "FSO_Sheffields_View2_V72_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "FSO Sheffields View2"
+        },
+        {
+          "src": "FSO_TeachingKitchen_V30.webp",
+          "thumb": "FSO_TeachingKitchen_V30_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "FSO Teaching Kitchen"
+        },
+        {
+          "src": "FSO_VillageStore_V20.webp",
+          "thumb": "FSO_VillageStore_V20_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "FSO Village Store"
+        }
+      ]
+    },
+    {
+      "title": "As-Built Photography",
+      "images": [
+        {
+          "src": "Horizon/1.webp",
+          "thumb": "Horizon/1_thumb.webp",
+          "width": 5992,
+          "height": 4004,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/10.webp",
+          "thumb": "Horizon/10_thumb.webp",
+          "width": 5539,
+          "height": 3860,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/11.webp",
+          "thumb": "Horizon/11_thumb.webp",
+          "width": 5098,
+          "height": 3020,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/12.webp",
+          "thumb": "Horizon/12_thumb.webp",
+          "width": 5486,
+          "height": 3444,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/13.webp",
+          "thumb": "Horizon/13_thumb.webp",
+          "width": 5811,
+          "height": 3877,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/14.webp",
+          "thumb": "Horizon/14_thumb.webp",
+          "width": 6016,
+          "height": 4016,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/15.webp",
+          "thumb": "Horizon/15_thumb.webp",
+          "width": 5376,
+          "height": 3361,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/16.webp",
+          "thumb": "Horizon/16_thumb.webp",
+          "width": 6016,
+          "height": 4016,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/17.webp",
+          "thumb": "Horizon/17_thumb.webp",
+          "width": 5514,
+          "height": 3468,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/2.webp",
+          "thumb": "Horizon/2_thumb.webp",
+          "width": 6016,
+          "height": 4016,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/3.webp",
+          "thumb": "Horizon/3_thumb.webp",
+          "width": 5644,
+          "height": 3587,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/4.webp",
+          "thumb": "Horizon/4_thumb.webp",
+          "width": 5230,
+          "height": 3657,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/5.webp",
+          "thumb": "Horizon/5_thumb.webp",
+          "width": 5654,
+          "height": 3670,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/6.webp",
+          "thumb": "Horizon/6_thumb.webp",
+          "width": 6018,
+          "height": 4018,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/7.webp",
+          "thumb": "Horizon/7_thumb.webp",
+          "width": 6019,
+          "height": 4015,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/8.webp",
+          "thumb": "Horizon/8_thumb.webp",
+          "width": 5497,
+          "height": 3873,
+          "alt": ""
+        },
+        {
+          "src": "Horizon/9.webp",
+          "thumb": "Horizon/9_thumb.webp",
+          "width": 5586,
+          "height": 3829,
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}

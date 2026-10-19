@@ -1,0 +1,41 @@
+{
+  "title": "The Hospital of Central Connecticut",
+  "location": "New Britain, Connecticut",
+  "folder": "Hospital_CC",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "HospitalCC_View1_V17_Opt1.webp",
+          "thumb": "HospitalCC_View1_V17_Opt1_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hospital CC View1 V17 Opt1"
+        },
+        {
+          "src": "HospitalCC_View1_V17_Opt2.webp",
+          "thumb": "HospitalCC_View1_V17_Opt2_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hospital CC View1 V17 Opt2"
+        },
+        {
+          "src": "HospitalCC_View2_V16_Opt1.webp",
+          "thumb": "HospitalCC_View2_V16_Opt1_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hospital CC View2 V16 Opt1"
+        },
+        {
+          "src": "HospitalCC_View2_V16_Opt2.webp",
+          "thumb": "HospitalCC_View2_V16_Opt2_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hospital CC View2 V16 Opt2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "D:/repos/VadyaRus.github.io/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.file": "404.html",
+		"liveServer.settings.port": 5501
+	}
+}

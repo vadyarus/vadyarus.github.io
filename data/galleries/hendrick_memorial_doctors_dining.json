@@ -1,0 +1,48 @@
+{
+  "title": "Hendrick Memorial Doctors Dining",
+  "location": "",
+  "folder": "Hendrick_Memorial_Doctors_Dining",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Hendrick_Doctors_View1_V12.webp",
+          "thumb": "Hendrick_Doctors_View1_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Doctors View1"
+        },
+        {
+          "src": "Hendrick_Doctors_View2_V8.webp",
+          "thumb": "Hendrick_Doctors_View2_V8_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Doctors View2"
+        },
+        {
+          "src": "Hendrick_Doctors_View3_V10.webp",
+          "thumb": "Hendrick_Doctors_View3_V10_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Doctors View3"
+        },
+        {
+          "src": "Hendrick_Doctors_View4_V9.webp",
+          "thumb": "Hendrick_Doctors_View4_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Doctors View4"
+        },
+        {
+          "src": "Hendrick_Doctors_View5_V15.webp",
+          "thumb": "Hendrick_Doctors_View5_V15_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Hendrick Doctors View5"
+        }
+      ]
+    }
+  ]
+}

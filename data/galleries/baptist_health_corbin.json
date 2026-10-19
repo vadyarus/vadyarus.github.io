@@ -1,0 +1,69 @@
+{
+  "title": "Baptist Health Corbin",
+  "location": "Corbin, Kentucky",
+  "folder": "Baptist_Health_Corbin_KY",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "BaptistHealthCorbin_01_Salad&Overall_V18.webp",
+          "thumb": "BaptistHealthCorbin_01_Salad&Overall_V18_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 01 Salad&Overall"
+        },
+        {
+          "src": "BaptistHealthCorbin_02_Overall_V1.webp",
+          "thumb": "BaptistHealthCorbin_02_Overall_V1_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 02 Overall"
+        },
+        {
+          "src": "BaptistHealthCorbin_03_Jack&Olive_V9.webp",
+          "thumb": "BaptistHealthCorbin_03_Jack&Olive_V9_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 03 Jack&Olive"
+        },
+        {
+          "src": "BaptistHealthCorbin_04_ItalianKitchen_V14.webp",
+          "thumb": "BaptistHealthCorbin_04_ItalianKitchen_V14_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 04 Italian Kitchen"
+        },
+        {
+          "src": "BaptistHealthCorbin_05_HandCraftedBurger_V14.webp",
+          "thumb": "BaptistHealthCorbin_05_HandCraftedBurger_V14_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 05 Hand Crafted Burger"
+        },
+        {
+          "src": "BaptistHealthCorbin_06_TacoShoppe_V12.webp",
+          "thumb": "BaptistHealthCorbin_06_TacoShoppe_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 06 Taco Shoppe"
+        },
+        {
+          "src": "BaptistHealthCorbin_07_ButcherBlock_V12.webp",
+          "thumb": "BaptistHealthCorbin_07_ButcherBlock_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 07 Butcher Block"
+        },
+        {
+          "src": "BaptistHealthCorbin_08_Oasis_V10.webp",
+          "thumb": "BaptistHealthCorbin_08_Oasis_V10_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Baptist Health Corbin 08 Oasis"
+        }
+      ]
+    }
+  ]
+}

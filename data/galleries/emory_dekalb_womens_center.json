@@ -1,0 +1,48 @@
+{
+  "title": "Emory Healthcare Women's Center",
+  "location": "Decatur, Georgia",
+  "folder": "Emory_Healthcare_Womens_Center_Decatur_GA",
+  "video": null,
+  "sections": [
+    {
+      "title": "",
+      "images": [
+        {
+          "src": "Emory_WomensCenter_Foodworks_V12.webp",
+          "thumb": "Emory_WomensCenter_Foodworks_V12_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory Womens Center Foodworks"
+        },
+        {
+          "src": "Emory_WomensCenter_MarketCoffee_V17.webp",
+          "thumb": "Emory_WomensCenter_MarketCoffee_V17_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory Womens Center Market Coffee"
+        },
+        {
+          "src": "Emory_WomensCenter_OverallView1_V18.webp",
+          "thumb": "Emory_WomensCenter_OverallView1_V18_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory Womens Center Overall View1"
+        },
+        {
+          "src": "Emory_WomensCenter_OverallView2_V18.webp",
+          "thumb": "Emory_WomensCenter_OverallView2_V18_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory Womens Center Overall View2"
+        },
+        {
+          "src": "Emory_WomensCenter_RotatingStation_V14.webp",
+          "thumb": "Emory_WomensCenter_RotatingStation_V14_thumb.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Emory Womens Center Rotating Station"
+        }
+      ]
+    }
+  ]
+}
